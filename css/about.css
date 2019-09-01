@@ -1,0 +1,146 @@
+*{margin: 0;}
+
+@font-face{
+	font-family: cursive;
+	src:url(../fuentes/MedievalSharp-Regular.tff);
+}
+
+
+body{
+	width:100%;
+	height: auto;
+	background-color: #ccc;
+	background-image: url(../imagenes/patronrojo3.jpg);
+	background-size: cover;
+	color:#fff;
+	font-family: 'MedievalSharp', cursive;
+}
+
+
+header{
+	width:99.71%;
+	height: 400px;
+	background-color: orange;
+	background-image: url(../imagenes/patronrojo3.jpg);
+	border:3px double white;
+	transition: 0.5s;
+}
+
+
+#banner{
+	width: 99.67%;
+	height: 398px;
+	background-image:url(../imagenes/wog.jpg);
+	background-position:center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top:2px;
+	margin-left: 4px;
+	display: flex;
+	align-items: center;
+	border-radius:10px;
+}
+
+#tras{
+	width: 100%;
+	height: 200px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius:10px;
+}
+
+#tras h1{
+	font-size: 90px;
+	margin-right: 5px;
+	margin-top: 20px;
+	justify-content: center;
+	text-align:center;
+	text-decoration: underline;
+}
+
+#tras p{
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+	display:flex;
+}
+
+#tras img{
+	height: 108px;
+	position: absolute;
+	left:10px;
+	top:8px;
+}
+
+
+main{
+	width: 99.71%;
+	height: 350px;
+	background-color: green;
+	background-image: url(../imagenes/patronrojo3.jpg);
+	border:3px double white;
+	margin-top:5px;
+
+}
+
+main p{
+	font-size: 40px;
+	margin-left: 5px;
+
+}
+
+footer{
+	width: 99.71%;
+	height: 250px;
+	border: 3px double white;
+	background-color:black;
+	margin-top:10px;
+}
+
+footer a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 20px;
+	display: flex;
+	align-content:flex-end;
+	justify-content: flex-end;
+	margin-top:7px;
+	margin-right: 10px;
+}
+
+footer a:active{
+	text-decoration: none;
+}
+
+footer a:visited{
+	text-decoration: none;
+}
+
+footer a:link{
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: #6A0502;
+}
+
+footer p{
+	margin-top:245px;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+#imagen{
+	height: 70px;
+	margin-top: -280px;
+}
+
+#titulo_final h1{
+	font-size: 90px;
+	margin-right: 5px;
+	margin-top: -25px;
+	justify-content: center;
+	text-align:center;
+	text-decoration: underline;
+}

@@ -1,0 +1,379 @@
+*{margin: 0;}
+
+@font-face{
+	font-family: cursive;
+	src:url(../fuentes/MedievalSharp-Regular.tff);
+}
+
+
+
+body{
+	width:100%;
+	height: auto;
+	background-color: #ccc;
+	background-image: url(../imagenes/patronrojo3.jpg);
+	background-size: cover;
+	color:#fff;
+	font-family: 'MedievalSharp', cursive;
+}
+
+header{
+	width:99.71%;
+	height: 400px;
+	background-color: orange;
+	background-image: url(../imagenes/patronrojo3.jpg);
+	border:3px double white;
+	transition: 0.5s;
+}
+
+#banner{
+	width: 99.67%;
+	height: 398px;
+	background-image:url(../imagenes/wog.jpg);
+	background-position:center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top:2px;
+	margin-left: 4px;
+	display: flex;
+	align-items: center;
+	border-radius:10px;
+}
+
+#tras{
+	width: 100%;
+	height: 200px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius:10px;
+}
+
+#tras h1{
+	font-size: 90px;
+	margin-right: 5px;
+	margin-top: 20px;
+	justify-content: center;
+	text-align:center;
+	text-decoration: underline;
+}
+
+#tras p{
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+	display:flex;
+}
+
+#tras img{
+	height: 108px;
+	position: absolute;
+	left:10px;
+	top:8px;
+}
+
+nav{
+	color:#fff;
+	width: 99.71%;
+	height: 50px;
+	background-color: black;
+	border:3px double white;
+	margin-top:5px;
+	text-decoration: none;
+}
+
+nav h1{
+	font-size: 20px;
+	margin-top:10px;
+	margin-left:5px;
+}
+
+#insta img{
+	height: 30px;
+	background-color:#500A08;
+	position: absolute;
+	right: 500px;
+	top:420px;
+}
+
+ul{
+	width: 768px;
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	margin-top:-30px;
+}
+
+ul li{
+	width: 125px;
+	height: 30px;
+	color:white;
+	background-color: #000;
+	text-align: center;
+	list-style: none;
+	float:left;
+	font-weight: bold;
+	padding-top:10px;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 100px;
+}
+
+
+ul li:hover{
+	background-color: #6A0502;
+}
+
+
+
+main{
+	width: 99.71%;
+	height: 1000px;
+	background-color: green;
+	background-image: url(../imagenes/patronrojo3.jpg);
+	display: flex;
+	flex-direction:row; /*row - column -row-reverse - column-reverse*/
+	justify-content: space-evenly; /* flex-start - flex-end - center - space-around - space-between - space-evenly*/
+	align-items: center; /* flex-start - flex-end - */
+	flex-wrap: nowrap; /*nowrap - wrap */
+	border:3px double white;
+	margin-top:5px;
+
+}
+
+#bloque1{
+	width: 32%;
+	height: 900px;
+	background-color: red;
+	background-image: url(../imagenes/gomez1.jpg);
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border:2px double white;
+	border-radius:4px;
+	transition: 0.5s;
+
+
+}
+
+#bloque1:hover{
+
+	margin-left: 15px;
+	margin-right: 15px;
+	box-shadow: 20px 20px 30px #000;
+	background-image: url(../imagenes/traicion2.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+#placa1{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5); /*se crea transparencias*/
+	margin-top: 400px;
+}
+
+#placa1 h1{
+	font-size:40px;
+	color:#fff;
+	margin-top:400px;
+	text-align:center;
+	line-height: 75px;
+	text-shadow:3px 3px 7px black;
+}
+
+#placa1 p{
+	color:#fff;
+	height: 10px;
+	text-align:center;
+	font-size:18px;
+	margin-top: -10px;
+	cursor:pointer;
+}
+
+#placa1 p:link{
+	color:#E75E5A;
+	text-decoration: none;
+}
+
+#placa1 p:actived{
+	color:#E75E5A;
+	text-decoration: none;
+}
+
+#placa1 p:visited{
+	color:#E75E5A;
+	text-decoration: none;
+}
+
+#placa1 p:hover{
+	color:#E75E5A;
+}
+
+
+
+#bloque2{
+	width: 32%;
+	height: 900px;
+	background-color: red;
+	background-image: url(../imagenes/hero2.jpg);
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border:2px double white;
+	border-radius:4px;
+	transition: 0.5s;
+}
+
+#bloque2:hover{
+	margin-left: 15px;
+	margin-right: 15px;
+	box-shadow: 20px 20px 30px #000;
+	background-image: url(../imagenes/xardas.gif);
+	background-repeat: no-repeat;
+	background-position: right left;
+	background-size: cover;
+}
+
+
+#placa2{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5); /*se crea transparencias*/
+	margin-top: 400px;
+}
+
+#placa2 h1{
+	font-size:40px;
+	color:#fff;
+	margin-top:400px;
+	text-align:center;
+	line-height: 75px;
+	text-shadow:3px 3px 7px black;
+}
+
+#placa2 p{
+	color:#fff;
+	height: 10px;
+	text-align:center;
+	font-size:18px;
+	margin-top: -10px;
+	cursor:pointer;
+}
+
+#placa2 p:hover{
+	color:#E75E5A;
+}
+
+
+#bloque3{
+	width: 32%;
+	height: 900px;
+	background-color: red;
+	background-image: url(../imagenes/g33.jpg);
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border:2px double white;
+	border-radius:4px;
+	transition: 0.5s;
+}
+
+#bloque3:hover{
+	margin-left: 15px;
+	margin-right: 15px;
+	box-shadow: 20px 20px 30px #000;
+	background-image: url(../imagenes/wolf.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+#placa3{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5); /*se crea transparencias*/
+	margin-top: 400px;
+}
+
+#placa3 h1{
+	font-size:40px;
+	color:#fff;
+	margin-top:400px;
+	text-align:center;
+	line-height: 75px;
+	text-shadow:3px 3px 7px black;
+}
+
+#placa3 p{
+	color:#fff;
+	height: 10px;
+	text-align:center;
+	font-size:18px;
+	margin-top: -10px;
+	cursor:pointer;
+}
+
+
+#placa3 p:hover{
+	color:#E75E5A;
+}
+
+footer{
+	width: 99.71%;
+	height: 250px;
+	border: 3px double white;
+	background-color:black;
+	margin-top:10px;
+}
+
+footer a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 20px;
+	display: flex;
+	align-content:flex-end;
+	justify-content: flex-end;
+	margin-top:7px;
+	margin-right: 10px;
+}
+
+footer a:active{
+	text-decoration: none;
+}
+
+footer a:visited{
+	text-decoration: none;
+}
+
+footer a:link{
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: #6A0502;
+}
+
+footer p{
+	margin-top:245px;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+#imagen{
+	height: 70px;
+	margin-top: -280px;
+}
+
+#titulo_final h1{
+	font-size: 90px;
+	margin-right: 5px;
+	margin-top: -25px;
+	justify-content: center;
+	text-align:center;
+	text-decoration: underline;
+}
