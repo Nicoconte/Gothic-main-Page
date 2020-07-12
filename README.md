@@ -1,2 +1,4 @@
-Hi! I have created this project trying to replace the main page of http://www.worldofgothic.com/. Also i have used it to practice git commands.
-In a future i will try to turn it into a full responsive website.
+Esta es una vision mia sobre como podria verse la pagina principal de http://www.worldofgothic.com/ (No es responsivo)
+
+Tecnologias:
+- HTML / CSS
